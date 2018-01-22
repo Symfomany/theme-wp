@@ -1,0 +1,457 @@
+# Translation of Themes - Twenty Seventeen in French (France)
+# This file is distributed under the same license as the Themes - Twenty Seventeen package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Theme-Heighteen\n"
+"POT-Creation-Date: 2018-01-21 18:01+0100\n"
+"PO-Revision-Date: 2018-01-21 18:44+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SearchPath-0: themes/twentyheighteen/.\n"
+"X-Poedit-SearchPath-1: twentyheighteen\n"
+
+#: 404.php:21
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oups! Cette page n’existe pas."
+
+#: 404.php:24
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Rien a été trouvé. Veillez tenter une autre recherche ?"
+
+#: archive.php:45 search.php:43
+msgid "Previous page"
+msgstr "Page précédente"
+
+#: archive.php:46 search.php:44
+msgid "Next page"
+msgstr "Page suivante"
+
+#: archive.php:47 search.php:45
+msgid "Page"
+msgstr ""
+
+#: comments.php:60
+msgid "Reply"
+msgstr "Réponse"
+
+#: comments.php:66 single.php:31
+msgid "Previous"
+msgstr "Précédent"
+
+#: comments.php:67 single.php:32
+msgid "Next"
+msgstr "Suivant"
+
+#: comments.php:75
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:27
+msgid "Mentions Légales"
+msgstr "General Conditions of Use"
+
+#: footer.php:28
+msgid "Conditions Générales"
+msgstr "General Conditions of Use"
+
+#: footer.php:29
+msgid "A propos"
+msgstr "About"
+
+#: functions.php:63 functions.php:183
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:64 functions.php:194
+msgid "Social Links Menu"
+msgstr ""
+
+#: functions.php:315
+msgid "Blog Sidebar"
+msgstr "Barre latérale du blog"
+
+#: functions.php:317
+msgid ""
+"Add widgets here to appear in your sidebar on blog posts and archive pages."
+msgstr ""
+
+#: functions.php:325
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:327 functions.php:337
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: functions.php:335
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:363 template-parts/page/content-front-page-panels.php:43
+#: template-parts/page/content-front-page.php:40
+#: template-parts/post/content-audio.php:83
+#: template-parts/post/content-gallery.php:70
+#: template-parts/post/content-image.php:59
+#: template-parts/post/content-video.php:82 template-parts/post/content.php:56
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: header.php:67
+msgid "Home"
+msgstr ""
+
+#: header.php:68 index.php:35
+msgid "Services"
+msgstr ""
+
+#: header.php:69
+msgid "Fonctionnalites"
+msgstr "Features"
+
+#: header.php:70
+msgid "Contact"
+msgstr ""
+
+#: inc/back-compat.php:39 inc/back-compat.php:51 inc/back-compat.php:66
+#, php-format
+msgid ""
+"Twenty Seventeen requires at least WordPress version 4.7. You are running "
+"version %s. Please upgrade and try again."
+msgstr ""
+
+#: inc/custom-header.php:49
+msgid "Default Header Image"
+msgstr ""
+
+#: inc/custom-header.php:119
+msgid "Play background video"
+msgstr ""
+
+#: inc/custom-header.php:120
+msgid "Pause background video"
+msgstr ""
+
+#: inc/customizer.php:46
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/customizer.php:48
+msgid "Light"
+msgstr ""
+
+#: inc/customizer.php:49
+msgid "Dark"
+msgstr ""
+
+#: inc/customizer.php:50
+msgid "Custom"
+msgstr ""
+
+#: inc/customizer.php:66
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer.php:77
+msgid "Page Layout"
+msgstr ""
+
+#: inc/customizer.php:80
+msgid ""
+"When the two-column layout is assigned, the page title is in one column and "
+"content is in the other."
+msgstr ""
+
+#: inc/customizer.php:82 inc/customizer.php:131
+msgid "One Column"
+msgstr ""
+
+#: inc/customizer.php:83 inc/customizer.php:132
+msgid "Two Column"
+msgstr ""
+
+#: inc/customizer.php:107
+#, php-format
+msgid "Front Page Section %d Content"
+msgstr ""
+
+#: inc/customizer.php:108
+msgid ""
+"Select pages to feature in each area from the dropdowns. Add an image to a "
+"section by setting a featured image in the page editor. Empty sections will "
+"not be displayed."
+msgstr ""
+
+#: inc/icon-functions.php:39
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: inc/icon-functions.php:44
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: inc/template-tags.php:21
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:51
+#, php-format
+msgid "<span class=\"screen-reader-text\">Posted on</span> %s"
+msgstr ""
+
+#: inc/template-tags.php:65
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:84
+msgid "Categories"
+msgstr ""
+
+#: inc/template-tags.php:88
+msgid "Tags"
+msgstr ""
+
+#: inc/template-tags.php:116
+#, php-format
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: inc/template-tags.php:150
+#, php-format
+msgid "Front Page Section %1$s Placeholder"
+msgstr ""
+
+#: index.php:11
+msgid "We are Taiwa"
+msgstr "Nous sommes Taiwa"
+
+#: index.php:12
+msgid "Agency specialized in voice applications and artificial intelligence"
+msgstr ""
+"Agence spécialisée dans les applications vocales et intelligence artificielle"
+
+#: index.php:16
+msgid ""
+"Contact Taiwa, Specialized Agency for Voice Applications and Artificial "
+"Intelligence"
+msgstr ""
+"Contactez Taiwa - Agence spécialisée dans les applications vocales et "
+"intelligence artificielle"
+
+#: index.php:23 index.php:111
+msgid "Taiwa is an agency creating apps for Google Home and Google Mini"
+msgstr ""
+"Taiwa est une agence qui crée des applications pour Google Home et Google "
+"Home Mini"
+
+#: index.php:40
+msgid "Unique"
+msgstr ""
+
+#: index.php:41
+msgid ""
+"Personalize the relationship with your usersq by interacting with them, "
+"create a unique and daily link between them and you"
+msgstr ""
+"Personnaliser la relation avec vos utilisateurs en interagissant avec eux, "
+"créer un lien unique et quotidien entre lui et vous"
+
+#: index.php:47
+msgid "Intuitive"
+msgstr "Intuitif"
+
+#: index.php:48
+msgid ""
+"Intuitive, easy-to-access applications that give your users satisfaction "
+"through a direct, personalized conversation"
+msgstr ""
+"Des applications intuitives, faciles d’accès donnant de la satisfaction à "
+"vos utilisateurs par une conversation directe, et personnalisée"
+
+#: index.php:54
+msgid "Original"
+msgstr ""
+
+#: index.php:55
+msgid ""
+"Attract a new audience to take an interest in you with an original voice "
+"application that will set you apart from your competition"
+msgstr ""
+"Attirer un nouveau public à s’intéresser à vous par une application vocale "
+"original qui vous démarquera de vos concurrents"
+
+#: index.php:61
+msgid "Real"
+msgstr "Réel"
+
+#: index.php:62
+msgid ""
+"The voice is the shortest path to the transmission of thoughts, get closer "
+"to your users through a continuous and real dialogue"
+msgstr ""
+"La voix est le chemin le plus court vers la transmission de pensées, "
+"rapprochez-vous de vos utilisateurs par un dialogue continu et réel"
+
+#: index.php:75
+msgid "Features"
+msgstr "Fonctionnalités"
+
+#: index.php:81
+msgid "Geolocation"
+msgstr ""
+
+#: index.php:82
+msgid "Stay close to your users"
+msgstr "Restez au plus proche de vos utilisateurs"
+
+#: index.php:90
+msgid "Commerce"
+msgstr ""
+
+#: index.php:91
+msgid "Simply order with your voice"
+msgstr "Commandez simplement avec votre voix"
+
+#: index.php:99
+msgid "Topicality"
+msgstr ""
+
+#: index.php:100
+msgid "Share your news and information"
+msgstr "Partagez vos actualités et informations"
+
+#: index.php:122
+msgid "Notifications"
+msgstr ""
+
+#: index.php:123
+msgid "Schedule tasks and stay informed"
+msgstr "Plannifiez des tâches et restez informé"
+
+#: index.php:131
+msgid "Games"
+msgstr "Jeux"
+
+#: index.php:132
+msgid "Create fun for your users"
+msgstr "Créez du plaisir pour vos utilisateurs"
+
+#: index.php:140
+msgid "Musics"
+msgstr "Musiques"
+
+#: index.php:141
+msgid "Broadcast your custom playlists"
+msgstr "Diffusez vos playlists personnalisées"
+
+#: index.php:163
+msgid "Name"
+msgstr "Nom"
+
+#: index.php:166
+msgid "E-Mail"
+msgstr ""
+
+#: index.php:169
+msgid "Message"
+msgstr ""
+
+#: index.php:174
+msgid "Send your message"
+msgstr "Envoyez votre message"
+
+#: index.php:185
+msgid "Get In Touch"
+msgstr "Restez en contact"
+
+#: index.php:186
+msgid "Contact us and discuss your project together"
+msgstr "Contactez-nous et discutons ensemble de votre projet"
+
+#: index.php:188
+msgid "Tel"
+msgstr ""
+
+#: index.php:189
+msgid "E-mail"
+msgstr ""
+
+#: index.php:190
+msgid "Site"
+msgstr ""
+
+#: search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:21 template-parts/post/content-none.php:17
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:50
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: single.php:31
+msgid "Previous Post"
+msgstr ""
+
+#: single.php:32
+msgid "Next Post"
+msgstr ""
+
+#: template-parts/footer/site-info.php:13
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: template-parts/footer/site-info.php:13
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: template-parts/header/site-branding.php:34
+#: template-parts/navigation/navigation-top.php:27
+msgid "Scroll down to content"
+msgstr ""
+
+#: template-parts/navigation/navigation-top.php:17
+msgid "Menu"
+msgstr ""
+
+#: template-parts/page/content-page.php:25
+#: template-parts/post/content-audio.php:88
+#: template-parts/post/content-gallery.php:75
+#: template-parts/post/content-image.php:64
+#: template-parts/post/content-video.php:87 template-parts/post/content.php:61
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/post/content-none.php:23
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/post/content-none.php:27
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#~ msgctxt "comments title"
+#~ msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+#~ msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+#~ msgstr[0] "%1$s réponse sur &ldquo;%2$s&rdquo;"
+#~ msgstr[1] "%1$s réponses sur &ldquo;%2$s&rdquo;"

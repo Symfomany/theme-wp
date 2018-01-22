@@ -381,7 +381,7 @@ add_action( 'wp_head', 'twentyseventeen_javascript_detection', 0 );
 
 function twentyseventeen_deps() {
 	// Add custom fonts, used in the main stylesheet.
-	wp_enqueue_style( 'twentyseventeen-fonts', twentyseventeen_fonts_url(), array(), null );
+	// wp_enqueue_style( 'twentyseventeen-fonts', twentyseventeen_fonts_url(), array(), null );
 
 	// Theme stylesheet.
 	wp_enqueue_style( 'twentyseventeen-owl', get_theme_file_uri( '/assets/css/owl.carousel.min.css' ) );
@@ -392,7 +392,6 @@ function twentyseventeen_deps() {
 	wp_enqueue_style( 'twentyseventeen-responsive', get_theme_file_uri( '/assets/css/responsive.css' ) );
 	wp_enqueue_style( 'twentyseventeen-red', get_theme_file_uri( '/assets/css/colors/red.css' ) );
 
-	
 	wp_enqueue_script( 'bootstrap', get_theme_file_uri( '/assets/js/bootstrap.min.js' ), null , true, true);
 	wp_enqueue_script( 'owl.carousel', get_theme_file_uri( '/assets/js/owl.carousel.min.js' ), null , true, true );
 	wp_enqueue_script( 'sticky', get_theme_file_uri( '/assets/js/jquery.sticky.js' ), null, true, true );
@@ -405,6 +404,8 @@ function twentyseventeen_deps() {
 	wp_enqueue_script( 'plugins', get_theme_file_uri( '/assets/js/plugins.js' ), null,true , true );
 	wp_enqueue_script( 'test', get_theme_file_uri( '/assets/js/custom.js' ), null, true, true );
 	wp_enqueue_script( 'modernizr', get_theme_file_uri( '/assets/js/vendor/modernizr-2.8.3.min.js' ), null,true,  true );
+
+	
 }
 twentyseventeen_deps();
 /**
@@ -452,6 +453,38 @@ function twentyseventeen_header_image_tag( $html, $header, $attr ) {
 	return $html;
 }
 add_filter( 'get_header_image_tag', 'twentyseventeen_header_image_tag', 10, 3 );
+
+
+
+/**
+ * 
+ */
+function getTweets(){
+require_once('TwitterAPIExchange.php');
+	
+	$settings = array(
+		'oauth_access_token' => "953632090419093504-p9mRcvL1GyIR6XrYkNhdh1Yav29gMc3",
+		'oauth_access_token_secret' => "mi2sKVrrBDIKCXkmVswFWuptN6jL5j6ieQafZkqDuwDZG",
+		'consumer_key' => "tiEL0XZMWt47lar9waBpJfj5L",
+		'consumer_secret' => "bYszMHITL5I7dFdoXmjl9t7IgNO5p2GLIjICib5kwpWRi6hOFi"
+	);
+
+	$url = "https://api.twitter.com/1.1/statuses/user_timeline.json";
+	$requestMethod = "GET";
+	$getfield = '?screen_name=TaiwaAgency&count=5';
+
+	$twitter = new TwitterAPIExchange($settings);
+	$string = json_decode($twitter->setGetfield($getfield)
+	->buildOauth($url, $requestMethod)
+	->performRequest(),$assoc = TRUE);
+	echo "<pre>";
+		echo($string);
+	echo "</pre>";
+
+	return $string;
+
+}
+
 
 /**
  * Add custom image sizes attribute to enhance responsive image functionality
